@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WhatsApp Number Exporter</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js"></script>
+  <script src="/libs/xlsx.full.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Add the logo at the top -->
+    <img src="images/logo.png" alt="WhatsApp Number Exporter Logo" class="logo">
+
+    <h1 class="title">WhatsApp Number Exporter</h1>
+    
+    <div class="settings">
+      <h2 class="subtitle">CHOOSE YOUR SETTING</h2>
+      <label for="scroll-size">Scroll size (px):</label>
+      <input type="number" id="scroll-size" placeholder="Enter scroll size">
+      
+      <label for="scroll-count">Numbers of Scrolls:</label>
+      <input type="number" id="scroll-count" placeholder="Enter number of scrolls">
+    </div>
+
+    <button id="export-btn" class="export-btn">Export Numbers</button>
+  </div>
+</body>
+</html>
